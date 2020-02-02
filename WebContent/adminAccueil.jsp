@@ -39,7 +39,7 @@
 	<meta http-equiv="Expires" content="0" />
 	 <!-- <META http-equiv="refresh" content="20; URL=adminAccueil.jsp">-->
 	
-	
+	<!-- Comentire -->
 	<title>Accueil - Espace Administrateur</title>
 	<!-- Style principal -->
 		<link rel="stylesheet" href="assets/styles/style.min.css">
