@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+<class name="com.yoprojet.projet.dao.entite.Client" table="CLIENT" >
+	<id name="id" column="ID"  >
+		<generator class="native"></generator>
+	</id>
+	<property name="nom" column="NOM"></property>
+	<property name="prenom" column="PRENOM"></property>
+	<property name="email" column="EMAIL"></property>
+	<property name="password" column="PASSWORD"></property>
+	<property name="privilige" column="PRIVILIGE"></property>
+	<property name="type" column="TYPE"></property>
+	<property name="nomSociete" column="NOMSOCIETE"></property>
+	<property name="registre" column="REGISTRE"></property>
+	<property name="identifiant" column="IDENTIFIANT"></property>
+	<property name="adrssse" column="ADRESSE"></property>
+	<property name="code" column="CODE"></property>
+	<property name="secteur" column="SECTEUR"></property>
+	<property name="typeSociete" column="TYPESOCIETE"></property>
+	<property name="avatar" column="AVATAR"></property>
+</class>
+
+</hibernate-mapping>

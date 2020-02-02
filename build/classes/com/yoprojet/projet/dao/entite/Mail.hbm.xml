@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+<class name="com.yoprojet.projet.dao.entite.Mail" table="MAIL" >
+	<id name="id" column="ID"  >
+		<generator class="native"></generator>
+	</id>
+	<property name="objet" column="OBJET"></property>
+	<property name="message" column="MESSAGE"></property>
+	<property name="distinataire" column="DISTINATAIRE"></property>
+	<property name="priviligeDistinataire" column="PRIVILIGEDISTINATAIRE"></property>
+	<property name="emetteur" column="EMETTEUR"></property>
+	<property name="priviligeEmetteur" column="PRIVILIGEEMETTEUR"></property>
+	<property name="date" column="DATE"></property>
+	<property name="status" column="STATUS"></property>
+</class>
+
+</hibernate-mapping>

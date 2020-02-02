@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+<class name="com.yoprojet.projet.dao.entite.Admin" table="Administrateur" >
+	<id name="id" column="ID"  >
+		<generator class="native"></generator>
+	</id>
+	<property name="email" column="EMAIL"></property>
+	<property name="password" column="PASSWORD"></property>
+	<property name="privilege" column="PRIVILEGE"></property>
+	<property name="nom" column="NOM"></property>
+	<property name="prenom" column="PRENOM"></property>
+	
+</class>
+
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+<class name="com.yoprojet.projet.dao.entite.Education" table="EDUCATION" >
+	<id name="id" column="ID"  >
+		<generator class="native"></generator>
+	</id>
+	<property name="intitule" column="INTITULE"></property>
+	<property name="organisation" column="ORGANIATION"></property>
+	<property name="dated" column="DATED"></property>
+	<property name="datef" column="DATEF"></property>
+	<property name="idCollaborateur" column="IDCOLLABORATEUR"></property>
+	<property name="privilige" column="PRIVILIGE"></property>
+	
+
+</class>
+</hibernate-mapping>

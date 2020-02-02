@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping>
+<class name="com.yoprojet.projet.dao.entite.ChefDeProjet" table="ChefDeProjet" >
+	<id name="id" column="ID"  >
+		<generator class="native"></generator>
+	</id>
+	<property name="email" column="EMAIL"></property>
+	<property name="prenom" column="PRENOM"></property>
+	<property name="nom" column="NOM"></property>
+	<property name="ville" column="VILLE"></property>
+	<property name="dateN" column="DATEN"></property>
+	<property name="titre" column="TITRE"></property>
+	<property name="telephone" column="TELEPHONE"></property>
+	<property name="interet" column="INTERET"></property>
+	<property name="password" column="PASSWORD"></property>
+	<property name="facebook" column="FACEBOOK"></property>
+	<property name="twitter" column="TWITTER"></property>
+	<property name="googleplus" column="GOOGLEPLUS"></property>
+	<property name="privilige" column="PRIVILIGE"></property>
+	<property name="photo" column="PHOTO"></property>
+</class>
+
+</hibernate-mapping>
